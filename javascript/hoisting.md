@@ -45,7 +45,7 @@ console.log(i) // results in 10
  * variables declared using the 'var' keyword do not respsect block scope. That means you would expect the variable i from the above for loop to be only accesible inside the loop. Wrong... . 
  Because var does not respect block level scope it will be globally accesible in your app. That means the variable i is now declared also as a property of the window ( window.i ) . 
 
- *  variables declared using var can be accessed in the whole scope. You can access them before they are declared. This is considered bad practice, as only declarations and not initializations are hoised. 
+ *  variables declared using var can be accessed in the whole scope. You can access them before they are declared. This is considered bad practice, as only declarations and not initializations are hoisted. 
 
  ## LET 
   * let behavies differently. You can only access it only after it was declared. Until then the variable is considered to be in the 'temporal dead zone'
