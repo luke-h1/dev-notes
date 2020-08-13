@@ -23,10 +23,10 @@ Works the same as way as doing :
 function foo(){
   console.log(`Hello ${name} !`) 
 }
-foo() 
+foo('Luke') 
 ```
 
- * In ES6 this is not a recommended practice. The first function works and prints the string      'hello' and the name passed in. The variable foo is declared after it is used but still works. When your Javascript code is being processed, in the first iteration, before actually executing it line by line, all the variable and function declarations are detected. Then they are created in memory and space is allocated for them. Only after that, the code is executed line by line. 
+ * In ES6 this is not a recommended practice. The first function works and prints the string 'hello' and the name passed in. The variable foo is declared after it is used, but it still works. When your Javascript code is being processed, in the first iteration, before actually executing it line by line, all the variable and function declarations are detected. Then they are created in memory and space is allocated for them. Only after that, the code is executed line by line. 
 
  * This behaves exactly the same as if the declarations were moved to the top of the scope (the function body). This means that your code behaves as if the declaration of the variables and functions were first and then the rest of your code. 
 
