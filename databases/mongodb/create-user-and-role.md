@@ -1,7 +1,7 @@
 ## CREATE USER & ADD ADMIN ROLE 
 ```
 db.createUser(
-{	user: "lukehowsam",
+{	user: "username",
 	pwd: "password",
 
 	roles:[{role: "userAdminAnyDatabase" , db:"admin"}]})
