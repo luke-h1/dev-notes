@@ -52,3 +52,16 @@ createPost({title: 'post three', body: 'this is post three'}).then(getPosts).cat
 
 
 ``` 
+
+
+In Addition to this you could also use the async await syntax to handle promises 
+
+```
+async function getRandomUser() {
+  const API_URL = `API_URL_here`;
+  const res = await fetch(API_URL);
+  const data = await res.json();
+  const user = data.results[0];
+  console.log(user) ; 
+  console.log(data);
+}
