@@ -14,9 +14,6 @@
   sass --watch scss/styles.scss css/styles.css
   ```
   * the above script watches the scss/styles.scss for changes and compiles the sass into css/styles.css
-  * if you're using partials you can use the glob syntax to watch for files (such as below)
-    ```
-   sass --watch scss/*.scss css/styles.css
-    ```
+    
 
   * another option would be to use the vs code extension live-sass-compiler
