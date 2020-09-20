@@ -23,3 +23,7 @@ use <DB_NAME>
 db.<COLLECTION-NAME>.find('query goes here')
 
 ```
+
+
+* drop a collection 
+db.collection-name.drop() 
