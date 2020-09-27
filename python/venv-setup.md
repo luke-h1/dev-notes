@@ -1,5 +1,5 @@
 # venv setup
-
+# mac only 
 
 * create venv in current directory 
 ```
@@ -12,3 +12,6 @@ source ./venv/bin/activate
 ```
 
 
+* leave venv 
+````
+deavtivate
