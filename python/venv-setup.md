@@ -3,5 +3,5 @@
 
 * create venv in current directory 
 ```
-python3 -m venv .
+python3 -m venv ./venv
 ```
