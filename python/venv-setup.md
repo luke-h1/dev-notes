@@ -44,5 +44,12 @@ if the above two commands do not work try using the absolute path to the folder 
 deactivate
 ```
 
+* In additon to this you could also run the following command in order to setup a venv 
 
+```
+# install pipenv 
+pip3 install pipenv 
 
+# create venv 
+pipenv shell 
+```
