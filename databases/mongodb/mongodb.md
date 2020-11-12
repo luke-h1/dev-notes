@@ -27,3 +27,6 @@ db.<COLLECTION-NAME>.find('query goes here')
 
 * drop a collection 
 db.collection-name.drop() 
+
+
+* If you're on a VPN you will be unable to connect to MongoDB atlas ()
