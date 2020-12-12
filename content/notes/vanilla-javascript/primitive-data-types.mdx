@@ -1,0 +1,11 @@
+## Primitive data types: 
+  
+  * A primitive data type in javscript is data that is not an object & has no methods 
+
+  * Primitive data types include: 
+  * string  
+  * number 
+  * bigint 
+  * boolean 
+  * undefined 
+  * null 
