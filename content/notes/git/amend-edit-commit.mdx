@@ -1,0 +1,28 @@
+## for one commit: 
+````
+git commit --amend
+```` 
+
+## squash the commits if more than one commit in. 
+
+see how many commits you have in queue
+```
+git log
+```
+
+
+### Go back 3 commits: 
+* put whatever number of commits in place of 3 that you need to go back to. 
+```
+git rebase -i HEAD~3 
+```
+
+you will now enter the interactive rebase menu 
+
+use the options available to you in the git menu 
+
+pick the fixup option to squash into the commit that has the pick option
+
+leave first commit with pick and however many you need to fix with fixup option
+
+now your branch is in a diverged state and you need to git push --force 
