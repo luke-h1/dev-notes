@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "gatsby-plugin-react-helmet": "^3.10.0",
-    "gatsby": "^2.32.4",
+    "gatsby": "^2.32.6",
     "gatsby-plugin-react-helmet": "^3.8.0",
     "gatsby-remark-prismjs": "^3.13.0",
     "gatsby-remark-responsive-iframe": "^2.11.0",
